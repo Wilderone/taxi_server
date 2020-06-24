@@ -88,10 +88,15 @@ WSGI_APPLICATION = 'server.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
+# heroku pg:psql postgresql-amorphous-26364 --app taximirserv
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgres',
-        # 'NAME': os.path.join(BASE_DIR, 'db.postgres'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd2rh3fleqmv9sa',
+        'USER': 'oyvhavbafmnjfb',
+        'PASSWORD': '1b0f24859daafa7d79e12a25b42c4f30e766f7aade824253b6e53c231e217052',
+        'PORT': '5432',
+        'HOST': 'ec2-54-217-236-206.eu-west-1.compute.amazonaws.com'
     }
 }
 
