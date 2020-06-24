@@ -10,6 +10,7 @@ class Car(models.Model):
     model = models.CharField(max_length=10)
     owner = models.CharField(max_length=5)
     fuel_type = models.CharField(max_length=5)
+    vin = models.CharField(max_length=20, null=True)
     lease_payment = models.DecimalField(
         max_digits=15, decimal_places=2, null=True)
     mileage = models.IntegerField(null=True)
