@@ -7,17 +7,17 @@ numb = models.IntegerField
 
 class Car(models.Model):
     grz = models.CharField(max_length=9, unique=True)
-    model = models.CharField(max_length=10, null=True)
-    owner = models.CharField(max_length=5, null=True)
+    model = models.CharField(max_length=10, blank=True, null=True)
+    owner = models.CharField(max_length=5, blank=True, null=True)
     fuel_type = models.CharField(max_length=5, null=False)
-    vin = models.CharField(max_length=20, null=True)
-    certificate = models.CharField(max_length=20, null=True)
+    vin = models.CharField(max_length=20, blank=True, null=True)
+    certificate = models.CharField(max_length=20, blank=True, null=True)
     lease_payment = models.DecimalField(
-        max_digits=15, decimal_places=2, null=True)
-    mileage = models.IntegerField(null=True)
-    last_to = models.IntegerField(null=True)
-    next_to = models.IntegerField(null=True)
-    to_type = models.IntegerField(null=True)
+        max_digits=15, decimal_places=2, blank=True, null=True)
+    mileage = models.IntegerField(blank=True, null=True)
+    last_to = models.IntegerField(blank=True, null=True)
+    next_to = models.IntegerField(blank=True, null=True)
+    to_type = models.IntegerField(blank=True, null=True)
 
     def __str__(self):
         return self.grz
