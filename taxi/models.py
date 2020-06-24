@@ -11,25 +11,27 @@ class Car(models.Model):
     owner = models.CharField(max_length=5)
     fuel_type = models.CharField(max_length=5)
     vin = models.CharField(max_length=20, null=True)
+    certificate = models.CharField(max_length=20, null=True)
     lease_payment = models.DecimalField(
         max_digits=15, decimal_places=2, null=True)
     mileage = models.IntegerField(null=True)
     last_to = models.IntegerField(null=True)
     next_to = models.IntegerField(null=True)
-    to_type = models.IntegerField()
+    to_type = models.IntegerField(null=True)
 
     def __str__():
         return self.grz
 
 
 class TO_History(models.Model):
-    car = models.ForeignKey(Car, on_delete=models.DO_NOTHING, to_field='grz')
+    car_to_history = models.ForeignKey(
+        Car, on_delete=models.DO_NOTHING, to_field='grz')
     to_type = models.IntegerField()
     mileage_current = models.IntegerField()
     mileage_next = models.IntegerField()
 
     class Meta:
-        unique_together = ('car', 'to_type')
+        unique_together = ('car_to_history', 'to_type')
 
 
 class Expences(models.Model):
@@ -40,6 +42,7 @@ class Expences(models.Model):
 
 class Report(models.Model):
     date_from = models.DateField()
+    car = models.ForeignKey(Car, on_delete=models.DO_NOTHING, to_field='grz')
     date_to = models.DateField()
     driver = char(max_length=50)
     shifts = numb()
@@ -47,7 +50,7 @@ class Report(models.Model):
     totalDeb = numb()
     salary = numb()
     gas = numb()
-    gas = numb()
+
     cash = numb()
     cash_flow = numb()
 
