@@ -10,7 +10,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import django_heroku
-import example
+
 
 import os
 import dj_database_url
