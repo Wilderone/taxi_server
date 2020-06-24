@@ -1,0 +1,182 @@
+[
+    {
+        "model": "taxi.Car",
+        "fields": {
+            "grz": "С614ОВ124",
+            "vin": "XTAGFL110KY246036",
+            "model": "Vesta",
+            "next_to": "-1122",
+            "mileage": 155068,
+            "certificate": 9905086401,
+            "owner": "L"
+        }
+    },
+    {
+        "model": "taxi.Car",
+        "fields": {
+            "grz": "Н068НС124",
+            "vin": "XTAGFL110JY113471",
+            "model": "Vesta",
+            "next_to": "-99",
+            "mileage": 229358,
+            "certificate": 2452877943,
+            "owner": "O"
+        }
+    },
+    {
+        "model": "taxi.Car",
+        "fields": {
+            "grz": "К142ОК124",
+            "vin": "XTAGFL110KY297675",
+            "model": "Vesta",
+            "next_to": "3124",
+            "mileage": 113376,
+            "certificate": 9908482030,
+            "owner": "L"
+        }
+    },
+    {
+        "model": "taxi.Car",
+        "fields": {
+            "grz": "С532НР124",
+            "vin": "XTA219070H0465948",
+            "model": "Granta",
+            "next_to": "1747",
+            "mileage": 227520,
+            "certificate": 9915809620,
+            "owner": "O"
+        }
+    },
+    {
+        "model": "taxi.Car",
+        "fields": {
+            "grz": "К147ОК124",
+            "vin": "XTAGFL110KY297676",
+            "model": "Vesta",
+            "next_to": "2647",
+            "mileage": 47381,
+            "certificate": 9908482029,
+            "owner": "L"
+        }
+    },
+    {
+        "model": "taxi.Car",
+        "fields": {
+            "grz": "У184ОН124",
+            "vin": "XTAGFL110LY372218",
+            "model": "Vesta",
+            "next_to": "3864",
+            "mileage": 45370,
+            "certificate": 9914741711,
+            "owner": "L"
+        }
+    },
+    {
+        "model": "taxi.Car",
+        "fields": {
+            "grz": "С530НР124",
+            "vin": "XTA219110HY252499",
+            "model": "Granta",
+            "next_to": "5754",
+            "mileage": 255046,
+            "certificate": 2452855594,
+            "owner": "O"
+        }
+    },
+    {
+        "model": "taxi.Car",
+        "fields": {
+            "grz": "Р364НХ124",
+            "vin": "XTA219010J0526410",
+            "model": "Granta",
+            "next_to": "3646",
+            "mileage": 224154,
+            "certificate": 2457572652,
+            "owner": "O"
+        }
+    },
+    {
+        "model": "taxi.Car",
+        "fields": {
+            "grz": "К150ОК124",
+            "vin": "XTAGFL110KY297677",
+            "model": "Vesta",
+            "next_to": "4056",
+            "mileage": 125670,
+            "certificate": 9908482026,
+            "owner": "L"
+        }
+    },
+    {
+        "model": "taxi.Car",
+        "fields": {
+            "grz": "У215ОН124",
+            "vin": "XTAGFL110LY372215",
+            "model": "Vesta",
+            "next_to": "5272",
+            "mileage": 54685,
+            "certificate": 9914741716,
+            "owner": "L"
+        }
+    },
+    {
+        "model": "taxi.Car",
+        "fields": {
+            "grz": "Р372НХ124",
+            "vin": "XTA219010J0523626",
+            "model": "Granta",
+            "next_to": "8200",
+            "mileage": 209242,
+            "certificate": 2457572650,
+            "owner": "O"
+        }
+    },
+    {
+        "model": "taxi.Car",
+        "fields": {
+            "grz": "С644ОВ124",
+            "vin": "XTAGFL110KY246030",
+            "model": "Vesta",
+            "next_to": "10000",
+            "mileage": 143230,
+            "certificate": 9905086403,
+            "owner": "L"
+        }
+    },
+    {
+        "model": "taxi.Car",
+        "fields": {
+            "grz": "У220ОН124",
+            "vin": "XTAGFL110LY372216",
+            "model": "Vesta",
+            "next_to": "7508",
+            "mileage": 52256,
+            "certificate": 9914741713,
+            "owner": "L"
+        }
+    },
+    {
+        "model": "taxi.Car",
+        "fields": {
+            "grz": "С499НР124",
+            "vin": "XTA219010H0465958",
+            "model": "Granta",
+            "next_to": "10000",
+            "mileage": 274100,
+            "certificate": 2452855585,
+            "owner": "O"
+        }
+    },
+    {
+        "model": "taxi.Car",
+        "fields": {
+            "grz": "С646ОВ124",
+            "vin": "XTAGFL110KY246031",
+            "model": "Vesta",
+            "next_to": "10000",
+            "mileage": 160329,
+            "certificate": 9905086402,
+            "owner": "L"
+        }
+    }
+]
