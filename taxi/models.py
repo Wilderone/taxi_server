@@ -9,7 +9,7 @@ class Car(models.Model):
     grz = models.CharField(max_length=9, unique=True)
     model = models.CharField(max_length=10, blank=True, null=True)
     owner = models.CharField(max_length=5, blank=True, null=True)
-    fuel_type = models.CharField(max_length=5, null=False)
+    fuel_type = models.CharField(max_length=5, null=False, blank=True)
     vin = models.CharField(max_length=20, blank=True, null=True)
     certificate = models.CharField(max_length=20, blank=True, null=True)
     lease_payment = models.DecimalField(
@@ -50,9 +50,12 @@ class Report(models.Model):
     totalDeb = numb()
     salary = numb()
     gas = numb()
-
     cash = numb()
     cash_flow = numb()
+
+    # @classmethod
+    # def new_report(cls, **kwargs):
+    #     report = cls(**kwargs)
 
 
 class Margin(models.Model):
