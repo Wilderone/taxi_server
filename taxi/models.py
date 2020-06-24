@@ -19,7 +19,7 @@ class Car(models.Model):
     next_to = models.IntegerField(null=True)
     to_type = models.IntegerField(null=True)
 
-    def __str__():
+    def __str__(self):
         return self.grz
 
 
